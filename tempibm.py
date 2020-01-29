@@ -20,9 +20,8 @@ def get_md5(filename):
         print (str(ValueError))
 
 if __name__ == "__main__":
-    token = b'4e209c50-900c-4ddb-bd60-032a272521f1:95a1fa6c-42db-4495-9b87-42e5784c4b1d'
-    # key = b"4e209c50-900c-4ddb-bd60-032a272521f1" # https://exchange.xforce.ibmcloud.com/settings/api
-    # password =b"95a1fa6c-42db-4495-9b87-42e5784c4b1d"
+    token = b'key:password' #  please replace with your api key's
+    
     # #print(type(key))
 
     auth = base64.b64encode(token)
